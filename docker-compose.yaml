@@ -1,12 +1,12 @@
 version: "3"
 services:
-  tomcat:1.0:
+  tomcat-1:
     image: "tomcat:9"
     ports:
     - "8081-8082:8080"
     volumes:
     - "/mnt/dev-wars:/usr/local/tomcat/webapps"
-  tomcat:2.0:
+  tomcat-2:
     image: "tomcat:9"
     ports:
     - "8083-8084:8080"
